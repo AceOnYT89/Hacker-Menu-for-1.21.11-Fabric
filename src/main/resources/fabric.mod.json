@@ -2,11 +2,19 @@
   "schemaVersion": 1,
   "id": "hackermenu",
   "version": "${version}",
-  "name": "Hackermenu GUI Port",
-  "description": "GUI-only Fabric port of the supplied Hackermenu screens.",
-  "authors": ["Local port"],
-  "environment": "client",
-  "entrypoints": { "client": ["com.hackermenu.client.HackermenuClient"] },
+  "name": "Hackermenu",
+  "description": "Fabric 1.21.11 port of the original NeoForge Hacker Menu mod.",
+  "authors": ["AceOnYT89"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.hackermenu.HackermenuMod"
+    ],
+    "client": [
+      "com.hackermenu.client.HackermenuClient"
+    ]
+  },
   "depends": {
     "fabricloader": ">=0.19.3",
     "minecraft": "1.21.11",
