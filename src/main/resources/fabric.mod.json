@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "hackermenu",
+  "version": "${version}",
+  "name": "Hackermenu GUI Port",
+  "description": "GUI-only Fabric port of the supplied Hackermenu screens.",
+  "authors": ["Local port"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.hackermenu.client.HackermenuClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
