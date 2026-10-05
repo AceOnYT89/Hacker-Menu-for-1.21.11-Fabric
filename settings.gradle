@@ -11,7 +11,7 @@ dependencyResolutionManagement {
     repositories {
         maven {
             name = 'Fabric'
-            url = 'https://maven.fabricmc.net/'
+            url = 'https://maven.fabricmc.net/repository/maven-public/'
         }
         maven {
             name = 'Mojang'
